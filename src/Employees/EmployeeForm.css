@@ -1,0 +1,47 @@
+/* styles.css */
+
+.new-employee__controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .new-employee__control {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .new-employee__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .new-employee__control input {
+    width: 50%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .new-employee__control input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .new-employee__controls button {
+    width: 10%;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .new-employee__controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  
