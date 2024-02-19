@@ -17,12 +17,15 @@ const App=()=> {
   const items=useSelector(state=>state.items);
   const dispatch = useDispatch();
 
-  // useEffect(
-  //   () => {
-  //     dispatch(sendExpenseData(items))
-  //   },
-  //   [items, dispatch]
-  // );
+  useEffect(
+    () => {
+      fetch('https://react-employees-e80e8-default-rtdb.firebaseio.com/employee.json', {
+                method: 'PUT',
+                body: JSON.stringify(items)
+              })
+            },
+    [items, dispatch]
+  );
 
   return (
     <EmployeeContextProvider>

@@ -10,7 +10,7 @@
 
 .employee-item_description {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     align-items: flex-end;
     flex-flow: column-reverse;

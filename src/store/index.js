@@ -34,7 +34,7 @@ export const sendEmployeeData = (employeeData) => {
     return async (dispatch) => {
 
         const sendRequest = async () => {
-            const response = await  fetch('https://reactcustomer-94acd-default-rtdb.asia-southeast1.firebasedatabase.app/employee.json', {
+            const response = await  fetch('https://react-employees-e80e8-default-rtdb.firebaseio.com/employee.json', {
                 method: 'PUT',
                 body: JSON.stringify(employeeData),
               });

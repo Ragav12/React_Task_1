@@ -2,13 +2,13 @@
 
 .new-employee__controls {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
   }
   
   .new-employee__control {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   
   .new-employee__control label {
@@ -30,7 +30,7 @@
   }
   
   .new-employee__controls button {
-    width: 10%;
+    width: 90%;
     padding: 0.5rem 1rem;
     background-color: #007bff;
     color: white;
